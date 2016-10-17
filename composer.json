@@ -1,0 +1,27 @@
+{
+    "name": "wardany/uploader",
+    "description": "uploader behavior based on mohorev/yii2-upload-behavior",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "muhammad wardany",
+            "email": "muhammad.wardany@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-imagine": "*"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.0",
+      "phpunit/dbunit": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wardany\\uploader\\": ""
+        }
+    }
+}
